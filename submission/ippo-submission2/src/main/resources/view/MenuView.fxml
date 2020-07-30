@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="413.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ippo.assignment2.view.MenuView">
+    <children>
+        <MenuBar prefHeight="29.0" prefWidth="512.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <menus>
+                <Menu fx:id="playerMenu" mnemonicParsing="false" text="Players" />
+                <Menu fx:id="pickUpMenu" mnemonicParsing="false" text="PickUp" />
+                <Menu fx:id="putDownMenu" mnemonicParsing="false" text="PutDown" />
+            </menus>
+        </MenuBar>
+      <ImageView fx:id="wallImage" fitHeight="384.0" fitWidth="512.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-29.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="29.0" />
+      <Button fx:id="leftButton" layoutX="321.0" layoutY="341.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="47.0" text="Left" />
+      <Button fx:id="rightButton" layoutX="431.0" layoutY="341.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="47.0" text="Right" />
+      <Button fx:id="forwardButton" layoutX="368.0" layoutY="285.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="63.0" text="Forward" />
+      <GridPane fx:id="imageBox" layoutY="29.0" prefHeight="300.0" prefWidth="180.0">
+      </GridPane>
+    </children>
+</AnchorPane>
